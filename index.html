@@ -5,17 +5,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sobre mim</title>
+
+        <!--CSS reset-->
+        <link rel="stylesheet" href="reset.css">
+        <!-- CSS externo (arquivo style) -->
+        <link rel="stylesheet" href="style.css">
+        <!-- CSS inten (tag style) -->
+        <style>
+            /*seletor {
+                propriedade: valor;
+            }*/
+
+           /* body{
+                background-color: #00ff00;
+            }*/
+        </style>
     </head>
-    <!-- HTML NÃO TEM PESCOÇO! -->
+   
     <body>
         <header>
             <ul>
-                <li><a href="#sobremim"> Sobre mim</a></li>
-                <li><a href="#formacaoAcademica"> Formação acadêmica</a></li>
+                <li><a style= color:black ;"#sobremim"> Sobre mim</a></li>
+                <li><a href="#formacaoAcademica"> Formação</a></li>
                 <li><a href="#hardSkills"> Hard skills</a></li>
                 <li><a href="#softSkils"> Soft skills</a></li>
-                <li><a href="#meusProjetos"> Meus projetos</a></li>
-                <li><a href="#meusArtigos"> Meus artigos</a></li>
+                <li><a href="#meusProjetos">Projetos</a></li>
+                <li><a href="#meusArtigos"> Artigos</a></li>
+                <li><a href="#contato"> Contato</a></li>
             </ul>
         </header>
 
@@ -67,6 +83,17 @@
 
         <section id="meusArtigos">
             <h2>Meus artigos</h2>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato comigo</h2>
+            <form>
+                <input type="text" name="nome">
+                <input type="email" name="email">
+                <textarea name="mensagem" rows="5" cols="50"></textarea>
+                <input type="submit" name="botaoEnviar" value="solicitar contato">
+                <button type="button" name=""
+            </form>
         </section>
 
         <footer id="rodape">
