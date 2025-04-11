@@ -3,5 +3,80 @@
                 propriedade: valor;
             }*/
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header nav{
+    text-align: center;
+}
+
+h1 {
+   font-size: 2rem; /* 1rem  = 16px --> 1em = "M"*/
+    font-weight: bold;
+    color: #0077b6;
+}
+
+h2 {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+header {
+    background-color: #0077b6;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky; /* pode ser necessário top, left, bottom ou right */
+    top: 0;
+}
+
+ header ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header a {
+    color: #ffffff;
+    font-weight: 700;
+    padding: .5rem 1rem;
+
+}
+
+header a:hover{
+    background-color: #023e8a;
+
+}
+
+section form{ 
+    scroll-margin-top: 4rem;
+    padding: 1rem;
+    border: 5px solid #000000;
+}
+
+section{
+    height: height;  /*vh -> viewport height (alturada viewport) */
+    margin: 10vh 2rem;
+    scroll-margin-top: 4rem;
+    padding: 1rem;
+    border: 5px solid #000000;
+    /* overflow: hidden; */
+    
+}
+
+body {
+  text-align: center;
+}
+
+section a{
+    color: darkred;
+}
+img{
+    display: block;
+    margin: auto;
+    weight: 18%;
+}
+h2 form{
+    border: 2px solid 0000;
+    padding: 4px;
+    border-style: 1rem;
+
 }
