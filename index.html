@@ -12,20 +12,14 @@
         <link rel="stylesheet" href="style.css">
         <!-- CSS inten (tag style) -->
         <style>
-            /*seletor {
-                propriedade: valor;
-            }*/
 
-           /* body{
-                background-color: #00ff00;
-            }*/
         </style>
     </head>
     <body>
         <header>
             <nav>
                 <h1>
-                <p style="color: black;">PORTIFÓLIO</p>
+                <p style="color: black;">PORTFÓLIO</p>
                 </h1>
             </nav>
              <nav>
@@ -46,7 +40,123 @@
             <p>Sou aluno em formação profissional do SENAI São Paulo</p>
             <img src="davij.jpg" alt="Foto de um homem moreno no espelho" width="200" title="Foto de um homem moreno no espelho">
             <p> 
-                <ul>
+
+        </section>
+
+        <section id="formacaoAcademica">
+
+            <h2 class="titulo-secao">Formação acadêmica</h2>
+
+            <div class="cards-em-coluna"></div>
+            
+            <p>Estou em processo de formação do ensino médio no SESI, e no SENAI estou no curso técnico em Análise de Desenvolvimento de Sistemas.</p>
+            <ul class="card">
+                <li class="titulo-card">Técnico em Desenvolvimento de Sistemas</li>
+                <li class="instituicao-card">SENAI "Conde José Vicente de Azevedo"</li>
+                <li class="ano-card">Formação em 2026 (previsto)</li>
+            </ul>
+            
+            <ul class="card">
+                 <li class="titulo-card ">Ensino Médio completo</li>
+                 <li class="instituicao-card">SESI Vila Leopoldina 414</li>
+                 <li class="ano-card">Formação 2026 (previsto)</li>
+            </ul>
+
+             <!-- ul.card>li.titulo-card+li.instituicao-card+li.ano-card> -->
+        </section>
+
+        <section id="hardSkills">
+            <h2 class="titulo-secao">Hard skills</h2>
+            <p>Habilidades técnicas aprendidas e mensuráveis. ✅</p>
+            <div class="cards-em-linha">
+            <ul class="card">
+                <li class="titulo-card">Conhecimento em lógica de programação ➡️ </li>
+            </ul>
+            
+            <ul class="card">
+                <li class="titulo-card"> JavaScript ☕</li>
+                <li class="descricao-card">JavaScript faz o site ganhar vida.</li>
+                
+            </ul>
+            <ul class="card">
+                <li class="titulo-card"> HTML </li>
+                <li class="descricao-card">HTML monta esqueleto do site.</li>
+            </ul>
+            
+            <ul class="card">
+                <li class="titulo-card"> Com o uso de ferramentas como:</li>
+                <li class="linguagem-card">GitHub 🐈‍⬛</li>
+                <li class="programação-card">Visual Studio Code</li>
+                <li class="terminal-card">PowerShell</li>
+            </ul>
+        </div>
+        
+        </section>
+
+        <section id="softSkills">
+            <h2>Soft skills</h2>
+            <div class="cards-em-linha">
+                <ul class="card">
+                <li class="icone-card">💪</li>
+                <li class="titulo-card">Empenhado</li>
+                </ul>
+
+                <ul class="card">
+                    <li class="icone-card">💛</li>
+                    <li class="titulo-card">Bom em trabalhos em equipe</li>
+                </ul>
+                <ul class="card">
+                    <li class="icone-card">📚</li>
+                    <li class="titulo-card">Aprendizado contínuo</li>    
+                </ul>
+                <ul class="card">
+                    <li class="icone-card">🌻</li>
+                    <li class="titulo-card">Empático</li>
+                </ul>
+                <ul class="card">
+                    <li class="icone-card">🧠</li>
+                    <li class="titulo-card">Pensamento critíco</li>
+                </ul>
+            </section>
+            
+        </div>
+        <section id="meusProjetos">
+            <h2>Meus projetos</h2>
+            <ul class="card">
+                <li>Meu projeto mais importante até então e um jogo chamado "Space" que é sobre um foguete que deve pousar no chão em segurança.</li>
+            </ul>
+            <ul class="card">
+                <li>
+                <p>JOGUE EM PRIMEIRA MÃO!! 🎮</p>
+                <a href="https://davijoaquim.github.io/lopal-moonlander/" title=" Clique para jogar o Space" target="_blank"> Acesse o jogo Space</a>
+                </li>
+            </ul>
+            <ul class="card">
+                <h3>*ATENÇÃO*</h3>
+                <li>Este jogo e apenas um protótipo, ainda haverá alterações para a versão final!</li>
+            </ul>
+        </section>
+
+        <section id="meusArtigos">
+            <h2>Meus artigos</h2>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato comigo</h2>
+            <form>
+            
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="Digite seu email">
+                <input type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="Digite seu telefone (XX) XXXXX-XXXX">
+                <textarea placeholder="Digite sua mensagem" rows="5" cols="50"></textarea>
+                <input type="submit" name="botaoEnviar" value="solicitar contato">
+                <div style="text-align: center;"></div>
+                
+            </form>
+        </section>
+
+        <footer id="rodape">
+            <h2>Links úteis</h2>
                 <li>
                 <a href="https://github.com/daviJoaquim" title="Clique aqui para acessar meu portfólio no GitHub " target="_blank"> Acesse o meu GitHub</a>
              </li>
@@ -61,63 +171,6 @@
             <a href="https://cronos-media.sesisenaisp.org.br//api/media/1-0/files?img=img_8_191219_c2ece027-f18c-497c-893c-f6e4d7b1305c_o.jpg&tipo=m" title="Escola SESI" target="Escola SESI"> Escola SESI</a>
             </li>
         </ul>
-
-        </section>
-
-        <section id="formacaoAcademica">
-            <h2>Formação acadêmica</h2>
-            <p>Estou em processo de formação do ensino médio no SESI, e no SENAI estou no curso técnico em Análise de Desenvolvimento de Sistemas.</p>
-        </section>
-
-        <section id="hardSkills">
-            <h2>Hard skills</h2>
-            <p>Tenho um bom conhecimento em lógica de programação como:
-            </p>
-        
-              <li>JavaScript</li>
-              <li>HTML</li>
-            
-            <p>Com o uso de ferramentas como:</p>
-            
-                 <li>GitHub</li>
-                 <li>Visual Studio Code</li>
-                 <li>PowerShell</li>
-            
-        </section>
-
-        <section id="softSkills">
-            <h2>Soft skills</h2>
-            <p>Sou dedicado em tarefas impostas que estejam ao meu alcance, enquato trabalho em equipe, faço a minha parte e procuro ajudar caso a pessoa tenha dificuldades e eu consiga ajuda-lá, dependendo do conteúdo tenho certa facilidade em aprender, mas outros procuro entender mais por fora para melhor resultado, sempre tento manter a calma em caso de resolução de problemas para conseguir encontrar a solução.</p>
-        </section>
-
-        <section id="meusProjetos">
-            <h2>Meus projetos</h2>
-            <p>Meu projeto mais importante até então e um jogo chamdo "Space" que é sobre um foguete que deve pousar no chão em segurança.<a href="" class=""></a></p>
-            <ul>
-                <li>
-                <a href="https://davijoaquim.github.io/lopal-moonlander/" title=" Clique para jogar o Space" target="_blank"> Acesse o jogo Space</a>
-                </li>
-            </ul>
-            <h3>*ATENÇÃO*</h3>
-            <p>Este jogo e apenas um protótipo, ainda haverá alterações para a versão final!</p>
-        </section>
-
-        <section id="meusArtigos">
-            <h2>Meus artigos</h2>
-        </section>
-
-        <section id="contato">
-            <h2>Entre em contato comigo</h2>
-            <form>
-                <input type="text" name="nome">
-                <input type="email" name="email">
-                <textarea name="mensagem" rows="5" cols="50"></textarea>
-                <input type="submit" name="botaoEnviar" value="solicitar contato">
-            </form>
-        </section>
-
-        <footer id="rodape">
-            <p>Links úteis</p>
         </footer>
     </body>
 </html>
